@@ -1,4 +1,5 @@
 import React from 'react';
+import 'lightbox2/dist/css/lightbox.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.js'
 import 'font-awesome/css/font-awesome.min.css'
@@ -9,7 +10,6 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-
     <App />
 );
 

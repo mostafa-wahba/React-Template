@@ -14,6 +14,7 @@ const routing = createBrowserRouter([
   {path: "",element:<Layout/>, children: [
     {index: true,element:<Home></Home>},
     {path: 'home',element:<Home></Home>},
+    {path: 'react-app',element:<Home></Home>},
     {path: 'portfolio',element:<Portfolio/>},
     {path: 'about',element:<About/>},
     {path: 'contact',element:<Contact/>},
