@@ -9,8 +9,8 @@ import Footer from './Footer/Footer';
 import Copyright from './Copyright/Copyright';
 import Layout from './Layout/Layout';
 import { Children } from 'react';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-const routing = createBrowserRouter([
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom';
+const routing = createHashRouter([
   {path: "",element:<Layout/>, children: [
     {index: true,element:<Home></Home>},
     {path: 'home',element:<Home></Home>},
